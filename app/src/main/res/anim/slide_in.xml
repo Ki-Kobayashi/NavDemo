@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: １：nav_mainで、近い遷移アニメーションを指定 -->
+<!-- TODO: ２：コードで、「１」のアニメーションをctrl＋Bで開く -->
+<!-- TODO: ３：「2」のコードをコピーし、それをベースにカスタマイズしていく -->
+<!-- TODO:      補足：（作成場所：res / anim / slide_in.xml） -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:fromXDelta="-50%p" android:toXDelta="0"
+        android:duration="@android:integer/config_mediumAnimTime"/>
+    <alpha android:fromAlpha="0.0" android:toAlpha="1.0"
+        android:duration="@android:integer/config_mediumAnimTime" />
+</set>
